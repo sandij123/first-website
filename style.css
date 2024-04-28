@@ -1,0 +1,48 @@
+html {
+    background-color: #6b0b0b;
+  }
+  /*Menargetkan tag html dan membuat latar belakangnya berwarna merah marun dengan kode hexadecimal*/
+  
+  body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fff7e2;
+    padding: 0 20px 20px 20px;
+    border: 2px solid rgb(184, 214, 10);
+  }
+    /*Menargetkan body yang merupakan isi dari semua konten 
+    - Membut lebarnya 800px dengan property width*/
+h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #030303;
+  }
+  img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+    
+  p,
+  li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: rgb(80, 80, 80);
+    font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+  }
+  
+
+  @media screen and (max-width:800px)and(max-width:414px){
+     body{
+      width:400px;
+     }
+    
+  }
